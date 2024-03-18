@@ -36,11 +36,11 @@
     "Weekly Allocation": "2TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-03-18 10:37:48.047735659 UTC",
     "Validated By": "kokal33",
     "Active": true,
-    "Updated At": "2024-03-18 10:37:48.047739075 UTC",
+    "Updated At": "2024-03-18 10:40:56.169990233 UTC",
     "Active Request ID": "309d5494-57f4-46bf-bd3a-67c9e4a66a9f",
     "On Chain Address": "f1gavvrcgtksbr3p5g7clqx2xyji7usvdagd75may",
     "Multisig Address": "false"
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-03-18 10:37:48.047740508 UTC",
       "Updated At": "2024-03-18 10:37:48.047741380 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "kokal33",
+          "Signing Address": "f1j2v7jgg4twnh2y76l3atpbbd2vz7rt6pkxlg2my",
+          "Created At": "2024-03-18 10:40:53.185000000 UTC",
+          "Message CID": "bafy2bzaceacjte4gu5bxqrcqnsjrahs33jbinfaexzpa3lkpfbfe7cv4qht6a"
+        }
+      ]
     }
   ]
 }
