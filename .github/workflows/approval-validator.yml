@@ -10,7 +10,7 @@ jobs:
   validate-approval:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://ffb0-2a01-261-550-d600-e082-2f01-833-df2d.ngrok-free.app
+      BACKEND_URL: https://fp-core.dp04sa0tdc6pk.us-east-1.cs.amazonlightsail.com
     steps:
       - name: Call Backend to Validate Application Approval
         id: validate
