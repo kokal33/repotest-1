@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
     "Version": { "type": "number" },
@@ -20,7 +20,6 @@
     "Project": {
       "type": "object",
       "properties": {
-        "Project Id": { "type": "string" },
         "Brief history of your project and organization": { "type": "string" },
         "Is this project associated with other projects/ecosystem stakeholders?": { "type": "string" },
         "Describe the data being stored onto Filecoin": { "type": "string" },
